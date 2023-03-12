@@ -41,10 +41,10 @@ public class Student {
         }
     }
 
-    void Avarage(int note1, int soz1, int note2, int soz2, int note3, int soz3) {
-        this.c1ort=(note1+soz1)/2;
-        this.c2ort=(note2+soz2)/2;
-        this.c3ort=(note3+soz3)/2;
+    void Avarage(double note1, double soz1, double note2, double soz2, double note3, double soz3) {
+        this.c1ort=(note1*0.80)+(soz1*0.20);
+        this.c2ort=(note2*0.80)+(soz2*0.20);
+        this.c3ort=(note3*0.80)+(soz3*0.20);
         avarage=(c1ort+c2ort+c2ort)/3;
     }
 

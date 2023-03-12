@@ -9,7 +9,7 @@ public class Teacher {
     }
 
     void printTeacher(){
-        System.out.println("Adı : "+name+",\nTelefon numarası : "+mobilPhone+",\nBranch : "+branch);
+            System.out.println("Adı : "+name+",\nTelefon numarası : "+mobilPhone+",\nBranch : "+branch);
     }
 
 
